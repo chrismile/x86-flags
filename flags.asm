@@ -40,9 +40,9 @@ main:
 	int	0x80
 
 clear_flags:
-    MOV EAX, 0
-    ADD EAX,1
-    RET
+	MOV EAX, 0
+	ADD EAX,1
+	RET
 
 save_registers:
 	; Save CARRY-flag
