@@ -32,7 +32,7 @@ main:
 	push eax
 	push dword FormattedFlagString
 	call printf
-	add esp, 20 ; Remove arguments from stack 
+	add esp,20 ; Remove arguments from stack 
 	
 	; Exit with code 0
 	mov ebx,0
@@ -40,9 +40,9 @@ main:
 	int 0x80
 
 clear_flags:
-	MOV EAX, 0
-	ADD EAX,1
-	RET
+	mov eax,0
+	add eax,1
+	ret
 
 save_registers:
 	; Save CARRY-flag
