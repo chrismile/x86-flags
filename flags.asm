@@ -16,6 +16,8 @@ segment .text
 	global main
 
 main:
+	call clear_flags
+	
 	; PUT CODE TO TEST HERE
 	mov eax,0
 	add eax,-1
@@ -36,6 +38,11 @@ main:
 	mov	ebx,0
 	mov	eax,1
 	int	0x80
+
+clear_flags:
+    MOV EAX, 0
+    ADD EAX,1
+    RET
 
 save_registers:
 	; Save CARRY-flag
