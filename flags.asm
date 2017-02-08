@@ -35,9 +35,9 @@ main:
 	add esp, 20 ; Remove arguments from stack 
 	
 	; Exit with code 0
-	mov	ebx,0
-	mov	eax,1
-	int	0x80
+	mov ebx,0
+	mov eax,1
+	int 0x80
 
 clear_flags:
 	MOV EAX, 0
