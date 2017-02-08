@@ -7,5 +7,6 @@ sudo apt-get install gcc-multilib nasm
 Then launch "make" in the directory of the project.
 
 
-; Copyright (c) 2017, Christoph Neuhauser
-; BSD 3-Clause License (for more details see LICENSE file)
+* Copyright (c) 2017, Christoph Neuhauser *
+
+BSD 3-Clause License (for more details see LICENSE file)
