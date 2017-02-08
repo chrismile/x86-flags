@@ -1,5 +1,5 @@
 ## x86-flags
-Assembler program for testing the behavior of x86 flags (using 32-bit assembly code).
+Assembler program for testing the behavior of x86 flags (using 32-bit assembly code) on Linux systems.
 
 To compile this program, you need to install the following packages on 64-bit x86 Ubuntu:
 
