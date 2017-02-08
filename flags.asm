@@ -30,7 +30,7 @@ main:
 	push eax
 	push dword FormatedFlagString
 	call printf
-	add esp, 20 ; Remove argumens from stack 
+	add esp, 20 ; Remove arguments from stack 
 	
 	; Exit with code 0
 	mov	ebx,0
