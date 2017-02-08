@@ -9,7 +9,7 @@
 
 
 segment .data
-	FormatedFlagString: db `Flags:\tC Z S O\n\t%d %d %d %d\n`, 0
+	FormattedFlagString: db `Flags:\tC Z S O\n\t%d %d %d %d\n`, 0
 
 segment .text
 	extern printf
@@ -30,7 +30,7 @@ main:
 	push ecx
 	push ebx
 	push eax
-	push dword FormatedFlagString
+	push dword FormattedFlagString
 	call printf
 	add esp, 20 ; Remove arguments from stack 
 	
